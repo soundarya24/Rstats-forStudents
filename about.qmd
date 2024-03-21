@@ -1,0 +1,29 @@
+---
+title: "About"
+---
+
+About this site
+
+
+This is a website to introduce RStudio and its power to my students
+
+You can do simple things like:
+
+```{r}
+1 + 1
+```
+
+Or more complex things like:
+
+```{r}
+library(ggplot2)
+ggplot(
+  mtcars,
+  aes(x = mpg, y = hp)
+) +
+  geom_point() +
+  theme_classic()
+```
+
+Come, let's learn R together! 
+

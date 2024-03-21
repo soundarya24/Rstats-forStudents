@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\nThis is a website to introduce RStudio and its power to my students\nYou can do simple things like:\n\n1 + 1\n\n[1] 2\n\n\nOr more complex things like:\n\nlibrary(ggplot2)\nggplot(\n  mtcars,\n  aes(x = mpg, y = hp)\n) +\n  geom_point() +\n  theme_classic()\n\n\n\n\n\n\n\n\nCome, let’s learn R together!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rstats-forStudents",
+    "section": "",
+    "text": "Have you read the about page? If not, head over to About to know more about this site.\nFirst things first, have you installed RStudio inn your system?\nIf not, head over to RStudio to download and install RStudio.\nBut before that you have to install R first which is also available for download from the same page.\nOnce you have installed R and RStudio, you are ready to go."
+  },
+  {
+    "objectID": "index.html#r-vs-rstudio",
+    "href": "index.html#r-vs-rstudio",
+    "title": "Rstats-forStudents",
+    "section": "R vs Rstudio",
+    "text": "R vs Rstudio\nIf you are wondering what is the difference between R and RStudio, then you are not alone.\n\nIf Rstudio is the driver of a car, R is the engine.\n\nR is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. You can imagine it like your mobile which suggests the word as you type. It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio."
+  },
+  {
+    "objectID": "index.html#rstudio-interface",
+    "href": "index.html#rstudio-interface",
+    "title": "Rstats-forStudents",
+    "section": "RStudio Interface",
+    "text": "RStudio Interface\nThe RStudio interface is divided into four panes:\n\nSource Pane: This is where you write your code. You can write your code in a script file and save it. You can also write your code in the console but it is not saved. You can run the code in the source pane by pressing Ctrl + Enter or Cmd + Enter in Mac.\n\nConsole Pane: This is where you can run your code. You can also see the output of your code here. You can run the code in the console by pressing Enter.\n\nEnvironment Pane: This is where you can see the objects you have created in your code. You can also see the packages you have loaded in your code.\n\nHelp Pane: This is where you can see the help for the functions you are using in your code. You can also see the help for the packages you have loaded in your code."
+  }
+]
