@@ -24,7 +24,7 @@ R is the programming language and RStudio is the integrated development environm
 
 The RStudio interface is divided into four panes:
 
-1. **Source Pane**: This is where you write your code. You can write your code in a script file and save it. You can also write your code in the console but it is not saved. You can run the code in the source pane by pressing `Ctrl + Enter` or `Cmd + Enter` in Mac.  
-2. **Console Pane**: This is where you can run your code. You can also see the output of your code here. You can run the code in the console by pressing `Enter`.  
-3. **Environment Pane**: This is where you can see the objects you have created in your code. You can also see the packages you have loaded in your code.  
-4. **Help Pane**: This is where you can see the help for the functions you are using in your code. You can also see the help for the packages you have loaded in your code.  
+1.  **Source Pane**: This is where you write your code. You can write your code in a script file and save it. You can also write your code in the console but it is not saved. You can run the code in the source pane by pressing `Ctrl + Enter` or `Cmd + Enter` in Mac.\
+2.  **Console Pane**: This is where you can run your code. You can also see the output of your code here. You can run the code in the console by pressing `Enter`.\
+3.  **Environment Pane**: This is where you can see the objects you have created in your code. You can also see the packages you have loaded in your code.\
+4.  **Help Pane**: This is where you can see the help for the functions you are using in your code. You can also see the help for the packages you have loaded in your code.

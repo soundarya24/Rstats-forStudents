@@ -4,7 +4,6 @@ title: "About"
 
 About this site
 
-
 This is a website to introduce RStudio and its power to my students
 
 You can do simple things like:
@@ -25,5 +24,4 @@ ggplot(
   theme_classic()
 ```
 
-Come, let's learn R together! 
-
+Come, let's learn R together!
