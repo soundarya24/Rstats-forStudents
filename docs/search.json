@@ -11,14 +11,14 @@
     "href": "index.html#r-vs-rstudio",
     "title": "Rstats-forStudents",
     "section": "R vs Rstudio",
-    "text": "R vs Rstudio\nIf you are wondering what is the difference between R and RStudio, then you are not alone.\n\nIf Rstudio is the driver of a car, R is the engine.\n\nR is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. You can imagine it like your mobile which suggests the word as you type. It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio."
+    "text": "R vs Rstudio\nIf you are wondering what is the difference between R and RStudio, then you are not alone.\n\nIf Rstudio is the driver of a car, R is the engine.\n\nR is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. You can imagine it like your mobile which suggests the word as you type. It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio.\nOnce you installed R and RStudio, you are free to work on RStudio even without opening R. Open it to familiarize with its interface."
   },
   {
     "objectID": "index.html#rstudio-interface",
     "href": "index.html#rstudio-interface",
     "title": "Rstats-forStudents",
     "section": "RStudio Interface",
-    "text": "RStudio Interface\nThe RStudio interface is divided into four panes:\n\nSource Pane: This is where you write your code. You can write your code in a script file and save it. You can also write your code in the console but it is not saved. You can run the code in the source pane by pressing Ctrl + Enter or Cmd + Enter in Mac.\n\nConsole Pane: This is where you can run your code. You can also see the output of your code here. You can run the code in the console by pressing Enter.\n\nEnvironment Pane: This is where you can see the objects you have created in your code. You can also see the packages you have loaded in your code.\n\nHelp Pane: This is where you can see the help for the functions you are using in your code. You can also see the help for the packages you have loaded in your code."
+    "text": "RStudio Interface\nThe RStudio interface is divided into four panes:\nIntroduce yourself to them by clicking here."
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,40 @@
     "title": "About",
     "section": "",
     "text": "About this site\nThis is a website to introduce RStudio and its power to my students\nYou can do simple things like:\n\n1 + 1\n\n[1] 2\n\n\nOr more complex things like:\n\nlibrary(ggplot2)\nggplot(\n  mtcars,\n  aes(x = mpg, y = hp)\n) +\n  geom_point() +\n  theme_classic()\n\n\n\n\n\n\n\n\nCome, let’s learn R together!"
+  },
+  {
+    "objectID": "index.html#start-with-coding",
+    "href": "index.html#start-with-coding",
+    "title": "Rstats-forStudents",
+    "section": "Start with coding",
+    "text": "Start with coding\nNow that you have installed R and RStudio, you are ready to start coding. Type the following code in the console and press enter; and you will see the output.\n\n1 + 1\n\n[1] 2\n\nprint(\"Hello World!\")\n\n[1] \"Hello World!\"\n\n\nAlright. You have successfully run your first code in RStudio. You can also run the code by writing them first as a script."
+  },
+  {
+    "objectID": "index.html#end-in-mind",
+    "href": "index.html#end-in-mind",
+    "title": "Rstats-forStudents",
+    "section": "End in mind",
+    "text": "End in mind\nThere are many things you can do in RStudio. Broadly for a beginner, you can do the following:\n\nData analysis\nData visualization\nReport writing\n\nYou can pick any of the above and start learning or mix and match them as you learn, like I did."
+  },
+  {
+    "objectID": "index.html#basic-best-practices",
+    "href": "index.html#basic-best-practices",
+    "title": "Rstats-forStudents",
+    "section": "Basic best practices",
+    "text": "Basic best practices\nIn my R journey, I have learned a few things that I would like to share with you:\nTo shine and be a good programmer, you need to write clean and readable codes, learn to organize them meaningfully. You can do this by following the best practices. I have these following suggesstions for you to begin with.\n\nWriting scripts: Write your codes in a script file and run them in the console. This way you can keep track of your codes and run them whenever you want. Read about writing scripts in RStudio here.\nProjects: Create a project in RStudio for each of your work. This way you can keep all the files related to a project in one place. Read about creating projects in RStudio here.\nImporting data: Import your data into RStudio using the readr package. Read about importing data in RStudio here.\n\nClick here to know more about the best practices in R."
+  },
+  {
+    "objectID": "index.html#what-are-packages",
+    "href": "index.html#what-are-packages",
+    "title": "Rstats-forStudents",
+    "section": "What are packages?",
+    "text": "What are packages?\nPackages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.\nYou mmay have to install the package you want only once, but load them everytime you start a new session. I would think this as electricity and usinng fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights everytime you use them. Installing packages is llike installing the electricity connection and loading them is like switching on the fans/lights.\nYou can install and load a package using the following code: install.packages(\"package_name\") and library(package_name) respectively.\nI highly suggest you start with the tidyverse package. It is a collection of packages that are designed to work together. You can install and load the tidyverse package using the following code: install.packages(\"tidyverse\") and library(tidyverse) respectively. Learn more about the tidyverse package here."
+  },
+  {
+    "objectID": "index.html#challenges-aand-getting-help",
+    "href": "index.html#challenges-aand-getting-help",
+    "title": "Rstats-forStudents",
+    "section": "Challenges aand getting help",
+    "text": "Challenges aand getting help\nYou may face challenges while learning R. But don’t worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker, learn to make a reproducible example. You can learn more about it here. This will help you recreate your error and share it with others to get help."
   }
 ]

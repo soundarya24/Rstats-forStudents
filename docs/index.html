@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -114,6 +148,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#r-vs-rstudio" id="toc-r-vs-rstudio" class="nav-link active" data-scroll-target="#r-vs-rstudio">R vs Rstudio</a></li>
   <li><a href="#rstudio-interface" id="toc-rstudio-interface" class="nav-link" data-scroll-target="#rstudio-interface">RStudio Interface</a></li>
+  <li><a href="#start-with-coding" id="toc-start-with-coding" class="nav-link" data-scroll-target="#start-with-coding">Start with coding</a></li>
+  <li><a href="#end-in-mind" id="toc-end-in-mind" class="nav-link" data-scroll-target="#end-in-mind">End in mind</a></li>
+  <li><a href="#basic-best-practices" id="toc-basic-best-practices" class="nav-link" data-scroll-target="#basic-best-practices">Basic best practices</a></li>
+  <li><a href="#what-are-packages" id="toc-what-are-packages" class="nav-link" data-scroll-target="#what-are-packages">What are packages?</a></li>
+  <li><a href="#challenges-aand-getting-help" id="toc-challenges-aand-getting-help" class="nav-link" data-scroll-target="#challenges-aand-getting-help">Challenges aand getting help</a></li>
   </ul>
 </nav>
     </div>
@@ -151,19 +190,59 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>If Rstudio is the driver of a car, R is the engine.</strong></p>
 </blockquote>
 <p>R is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. <em>You can imagine it like your mobile which suggests the word as you type.</em> It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio.</p>
+<p>Once you installed R and RStudio, you are free to work on RStudio even without opening R. Open it to familiarize with its interface.</p>
 </section>
 <section id="rstudio-interface" class="level2">
 <h2 class="anchored" data-anchor-id="rstudio-interface">RStudio Interface</h2>
 <p>The RStudio interface is divided into four panes:</p>
+<p>Introduce yourself to them by clicking <a href="https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html">here</a>.</p>
+</section>
+<section id="start-with-coding" class="level2">
+<h2 class="anchored" data-anchor-id="start-with-coding">Start with coding</h2>
+<p>Now that you have installed R and RStudio, you are ready to start coding. Type the following code in the console and press enter; and you will see the output.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Hello World!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Hello World!"</code></pre>
+</div>
+</div>
+<p>Alright. You have successfully run your first code in RStudio. You can also run the code by writing them first as a script.</p>
+</section>
+<section id="end-in-mind" class="level2">
+<h2 class="anchored" data-anchor-id="end-in-mind">End in mind</h2>
+<p>There are many things you can do in RStudio. Broadly for a beginner, you can do the following:</p>
 <ol type="1">
-<li><strong>Source Pane</strong>: This is where you write your code. You can write your code in a script file and save it. You can also write your code in the console but it is not saved. You can run the code in the source pane by pressing <code>Ctrl + Enter</code> or <code>Cmd + Enter</code> in Mac.<br>
-</li>
-<li><strong>Console Pane</strong>: This is where you can run your code. You can also see the output of your code here. You can run the code in the console by pressing <code>Enter</code>.<br>
-</li>
-<li><strong>Environment Pane</strong>: This is where you can see the objects you have created in your code. You can also see the packages you have loaded in your code.<br>
-</li>
-<li><strong>Help Pane</strong>: This is where you can see the help for the functions you are using in your code. You can also see the help for the packages you have loaded in your code.</li>
+<li>Data analysis</li>
+<li>Data visualization</li>
+<li>Report writing</li>
 </ol>
+<p>You can pick any of the above and start learning or mix and match them as you learn, like I did.</p>
+</section>
+<section id="basic-best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="basic-best-practices">Basic best practices</h2>
+<p>In my R journey, I have learned a few things that I would like to share with you:</p>
+<p>To shine and be a good programmer, you need to write clean and readable codes, learn to organize them meaningfully. You can do this by following the best practices. I have these following suggesstions for you to begin with.</p>
+<ol type="1">
+<li><p><strong>Writing scripts</strong>: Write your codes in a script file and run them in the console. This way you can keep track of your codes and run them whenever you want. Read about writing scripts in RStudio <a href="https://ss-myrspace.netlify.app/posts/2021-08-03-using-r-scripts-effectively-even-as-a-beginner/">here</a>.</p></li>
+<li><p><strong>Projects</strong>: Create a project in RStudio for each of your work. This way you can keep all the files related to a project in one place. Read about creating projects in RStudio <a href="https://ss-myrspace.netlify.app/posts/2021-08-03-starting-projects-in-rstudio/">here</a>.</p></li>
+<li><p><strong>Importing data</strong>: Import your data into RStudio using the <code>readr</code> package. Read about importing data in RStudio <a href="https://ss-myrspace.netlify.app/posts/2021-05-13-how-to-import-your-data-into-r/">here</a>.</p></li>
+</ol>
+<p>Click <a href="https://style.tidyverse.org/">here</a> to know more about the best practices in R.</p>
+</section>
+<section id="what-are-packages" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-packages">What are packages?</h2>
+<p>Packages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.</p>
+<p>You mmay have to install the package you want only once, but load them everytime you start a new session. I would think this as electricity and usinng fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights everytime you use them. Installing packages is llike installing the electricity connection and loading them is like switching on the fans/lights.</p>
+<p>You can install and load a package using the following code: <code>install.packages("package_name")</code> and <code>library(package_name)</code> respectively.</p>
+<p>I highly suggest you start with the <code>tidyverse</code> package. It is a collection of packages that are designed to work together. You can install and load the <code>tidyverse</code> package using the following code: <code>install.packages("tidyverse")</code> and <code>library(tidyverse)</code> respectively. Learn more about the <code>tidyverse</code> package <a href="https://www.tidyverse.org/">here</a>.</p>
+</section>
+<section id="challenges-aand-getting-help" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-aand-getting-help">Challenges aand getting help</h2>
+<p>You may face challenges while learning R. But don’t worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker, learn to make a reproducible example. You can learn more about it <a href="https://www.tidyverse.org/help/#reprex">here</a>. This will help you recreate your error and share it with others to get help.</p>
 
 
 </section>
