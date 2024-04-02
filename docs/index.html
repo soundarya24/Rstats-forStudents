@@ -208,7 +208,7 @@ background: orange;
   <li><a href="#end-in-mind" id="toc-end-in-mind" class="nav-link" data-scroll-target="#end-in-mind"><span class="header-section-number">4</span> End in mind</a></li>
   <li><a href="#basic-best-practices" id="toc-basic-best-practices" class="nav-link" data-scroll-target="#basic-best-practices"><span class="header-section-number">5</span> Basic best practices</a></li>
   <li><a href="#what-are-packages" id="toc-what-are-packages" class="nav-link" data-scroll-target="#what-are-packages"><span class="header-section-number">6</span> What are packages?</a></li>
-  <li><a href="#challenges-aand-getting-help" id="toc-challenges-aand-getting-help" class="nav-link" data-scroll-target="#challenges-aand-getting-help"><span class="header-section-number">7</span> Challenges aand getting help</a></li>
+  <li><a href="#challenges-and-getting-help" id="toc-challenges-and-getting-help" class="nav-link" data-scroll-target="#challenges-and-getting-help"><span class="header-section-number">7</span> Challenges and getting help</a></li>
   </ul>
 </nav>
     </div>
@@ -221,7 +221,7 @@ background: orange;
 
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>Last updated: Tue Apr  2 16:33:48 2024.</code></pre>
+<pre><code>Last updated: Tue Apr  2 16:48:01 2024.</code></pre>
 </div>
 </div>
 <hr>
@@ -236,13 +236,38 @@ background: orange;
 <blockquote class="blockquote">
 <p><strong>If Rstudio is the driver of a car, R is the engine.</strong></p>
 </blockquote>
-<p>R is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. <em>You can imagine it like your mobile which suggests the word as you type.</em> It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="car.jpg" class="img-fluid figure-img"></p>
+<figcaption>A car engine akin to R helps you drive it</figcaption>
+</figure>
+</div>
+<p>R is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Know how RStudio makes your job easier
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>RStudio has inbuilt prompts that helps you finish the codes. <em>You can imagine it like your mobile which suggests the word as you type.</em></li>
+<li>It also has a console where you can run the codes and see the output.</li>
+<li>It also has a file explorer, a plot window, a help window and a package manager.</li>
+</ol>
+<p>All these makes it much easier for beginner to learn in RStudio.</p>
+</div>
+</div>
 <p>Once you installed R and RStudio, you are free to work on RStudio even without opening R. Open it to familiarize with its interface.</p>
 </section>
 <section id="rstudio-interface" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="rstudio-interface"><span class="header-section-number">2</span> RStudio Interface</h2>
 <p>The RStudio interface is divided into four panes:</p>
-<p>Introduce yourself to them by clicking <a href="https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html">here</a>.</p>
+<p>Introduce yourself to them by reading about them <a href="https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html">here</a>.</p>
+<p>Also, you can move them around and customize per your preferences. For this, go to Tools-&gt; Global options -&gt; Pane layout</p>
 </section>
 <section id="start-with-coding" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="start-with-coding"><span class="header-section-number">3</span> Start with coding</h2>
@@ -274,6 +299,19 @@ background: orange;
 <li>Report writing</li>
 </ol>
 <p>You can pick any of the above and start learning or mix and match them as you learn, like I did.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What to aim if I am a total beginner
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I would suggest data visualization as it is rewarding. If you are here because your project required a particular analyses, then you might want to begin there. Report writing may require skills of 1 and 2 and maybe prioritized down the line.</p>
+</div>
+</div>
 </section>
 <section id="basic-best-practices" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="basic-best-practices"><span class="header-section-number">5</span> Basic best practices</h2>
@@ -289,13 +327,19 @@ background: orange;
 <section id="what-are-packages" class="level2" data-number="6">
 <h2 data-number="6" class="anchored" data-anchor-id="what-are-packages"><span class="header-section-number">6</span> What are packages?</h2>
 <p>Packages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.</p>
-<p>You mmay have to install the package you want only once, but load them everytime you start a new session. I would think this as electricity and usinng fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights everytime you use them. Installing packages is llike installing the electricity connection and loading them is like switching on the fans/lights.</p>
+<p>You may have to install the package you want only once, but load them every time you start a new session. I would think this as electricity and using fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights every time you use them. Installing packages is like installing the electricity connection and loading them is like switching on the fans/lights.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="switch.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Load the packages like you switch on the fan every time you need</figcaption>
+</figure>
+</div>
 <p>You can install and load a package using the following code: <code>install.packages("package_name")</code> and <code>library(package_name)</code> respectively.</p>
 <p>I highly suggest you start with the <code>tidyverse</code> package. It is a collection of packages that are designed to work together. You can install and load the <code>tidyverse</code> package using the following code: <code>install.packages("tidyverse")</code> and <code>library(tidyverse)</code> respectively. Learn more about the <code>tidyverse</code> package <a href="https://www.tidyverse.org/">here</a>.</p>
 </section>
-<section id="challenges-aand-getting-help" class="level2" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="challenges-aand-getting-help"><span class="header-section-number">7</span> Challenges aand getting help</h2>
-<p>You may face challenges while learning R. But don’t worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker, learn to make a reproducible example. You can learn more about it <a href="https://www.tidyverse.org/help/#reprex">here</a>. This will help you recreate your error and share it with others to get help.</p>
+<section id="challenges-and-getting-help" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="challenges-and-getting-help"><span class="header-section-number">7</span> Challenges and getting help</h2>
+<p>You may face challenges while learning R. But don’t worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker (is that even a word?), learn to make a reproducible example. You can learn more about it <a href="https://www.tidyverse.org/help/#reprex">here</a>. This will help you recreate your error and share it with others to get help.</p>
 
 
 </section>

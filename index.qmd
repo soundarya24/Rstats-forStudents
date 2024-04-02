@@ -28,10 +28,8 @@ include-after-body: footer.Rhtml
 timestamp(prefix = "Last updated: ", suffix = ".")
 ```
 
+------------------------------------------------------------------------
 
-
-
-***
 Have you read the about page? If not, head over to [About](about.html) to know more about this site.
 
 First things first, have you installed RStudio inn your system?
@@ -48,7 +46,19 @@ If you are wondering what is the difference between R and RStudio, then you are 
 
 > **If Rstudio is the driver of a car, R is the engine.**
 
-R is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. *You can imagine it like your mobile which suggests the word as you type.* It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio.
+![A car engine akin to R helps you drive it](car.jpg)
+
+R is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how.
+
+::: {.callout-note appearance="minimal"}
+## Know how RStudio makes your job easier
+
+1.  RStudio has inbuilt prompts that helps you finish the codes. *You can imagine it like your mobile which suggests the word as you type.*
+2.  It also has a console where you can run the codes and see the output.
+3.  It also has a file explorer, a plot window, a help window and a package manager.
+
+All these makes it much easier for beginner to learn in RStudio.
+:::
 
 Once you installed R and RStudio, you are free to work on RStudio even without opening R. Open it to familiarize with its interface.
 
@@ -56,7 +66,9 @@ Once you installed R and RStudio, you are free to work on RStudio even without o
 
 The RStudio interface is divided into four panes:
 
-Introduce yourself to them by clicking [here](https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html).
+Introduce yourself to them by reading about them [here](https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html).
+
+Also, you can move them around and customize per your preferences. For this, go to Tools-\> Global options -\> Pane layout
 
 ## Start with coding
 
@@ -79,6 +91,12 @@ There are many things you can do in RStudio. Broadly for a beginner, you can do 
 
 You can pick any of the above and start learning or mix and match them as you learn, like I did.
 
+::: callout-tip
+## What to aim if I am a total beginner
+
+I would suggest data visualization as it is rewarding. If you are here because your project required a particular analyses, then you might want to begin there. Report writing may require skills of 1 and 2 and maybe prioritized down the line.
+:::
+
 ## Basic best practices
 
 In my R journey, I have learned a few things that I would like to share with you:
@@ -97,12 +115,14 @@ Click [here](https://style.tidyverse.org/) to know more about the best practices
 
 Packages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.
 
-You mmay have to install the package you want only once, but load them everytime you start a new session. I would think this as electricity and usinng fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights everytime you use them. Installing packages is llike installing the electricity connection and loading them is like switching on the fans/lights.
+You may have to install the package you want only once, but load them every time you start a new session. I would think this as electricity and using fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights every time you use them. Installing packages is like installing the electricity connection and loading them is like switching on the fans/lights.
+
+![Load the packages like you switch on the fan every time you need](switch.jpg){fig-align="center"}
 
 You can install and load a package using the following code: `install.packages("package_name")` and `library(package_name)` respectively.
 
 I highly suggest you start with the `tidyverse` package. It is a collection of packages that are designed to work together. You can install and load the `tidyverse` package using the following code: `install.packages("tidyverse")` and `library(tidyverse)` respectively. Learn more about the `tidyverse` package [here](https://www.tidyverse.org/).
 
-## Challenges aand getting help
+## Challenges and getting help
 
-You may face challenges while learning R. But don't worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker, learn to make a reproducible example. You can learn more about it [here](https://www.tidyverse.org/help/#reprex). This will help you recreate your error and share it with others to get help.
+You may face challenges while learning R. But don't worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker (is that even a word?), learn to make a reproducible example. You can learn more about it [here](https://www.tidyverse.org/help/#reprex). This will help you recreate your error and share it with others to get help.

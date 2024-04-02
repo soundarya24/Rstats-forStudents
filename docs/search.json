@@ -1,31 +1,31 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\nThis is a website to introduce RStudio and its power to my students\nYou can do simple things like:\n\n1 + 1\n\n[1] 2\n\n\nOr more complex things like:\n\nlibrary(ggplot2)\nggplot(\n  mtcars,\n  aes(x = mpg, y = hp)\n) +\n  geom_point() +\n  theme_classic()\n\n\n\n\n\n\n\n\nCome, let’s learn R together!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Rstats-forStudents",
     "section": "",
-    "text": "Last updated: Tue Apr  2 16:33:48 2024.\nHave you read the about page? If not, head over to About to know more about this site.\nFirst things first, have you installed RStudio inn your system?\nIf not, head over to RStudio to download and install RStudio.\nBut before that you have to install R first which is also available for download from the same page.\nOnce you have installed R and RStudio, you are ready to go."
+    "text": "Last updated: Tue Apr  2 16:48:01 2024.\nHave you read the about page? If not, head over to About to know more about this site.\nFirst things first, have you installed RStudio inn your system?\nIf not, head over to RStudio to download and install RStudio.\nBut before that you have to install R first which is also available for download from the same page.\nOnce you have installed R and RStudio, you are ready to go."
   },
   {
     "objectID": "index.html#r-vs-rstudio",
     "href": "index.html#r-vs-rstudio",
     "title": "Rstats-forStudents",
     "section": "1 R vs Rstudio",
-    "text": "1 R vs Rstudio\nIf you are wondering what is the difference between R and RStudio, then you are not alone.\n\nIf Rstudio is the driver of a car, R is the engine.\n\nR is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how. RStudio has inbuilt prompts that helps you finish the codes. You can imagine it like your mobile which suggests the word as you type. It also has a console where you can run the codes and see the output. It also has a file explorer, a plot window, a help window and a package manager. All these makes it much easier for beginner to learn in RStudio.\nOnce you installed R and RStudio, you are free to work on RStudio even without opening R. Open it to familiarize with its interface."
+    "text": "1 R vs Rstudio\nIf you are wondering what is the difference between R and RStudio, then you are not alone.\n\nIf Rstudio is the driver of a car, R is the engine.\n\n\n\n\nA car engine akin to R helps you drive it\n\n\nR is the programming language and RStudio is the integrated development environment (IDE) for R. Rstudio makes codes much easier and hence it is very useful to write codes there as a beginner. I know you want to know how.\n\n\n\n\n\n\nKnow how RStudio makes your job easier\n\n\n\n\nRStudio has inbuilt prompts that helps you finish the codes. You can imagine it like your mobile which suggests the word as you type.\nIt also has a console where you can run the codes and see the output.\nIt also has a file explorer, a plot window, a help window and a package manager.\n\nAll these makes it much easier for beginner to learn in RStudio.\n\n\nOnce you installed R and RStudio, you are free to work on RStudio even without opening R. Open it to familiarize with its interface."
   },
   {
     "objectID": "index.html#rstudio-interface",
     "href": "index.html#rstudio-interface",
     "title": "Rstats-forStudents",
     "section": "2 RStudio Interface",
-    "text": "2 RStudio Interface\nThe RStudio interface is divided into four panes:\nIntroduce yourself to them by clicking here."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\nThis is a website to introduce RStudio and its power to my students\nYou can do simple things like:\n\n1 + 1\n\n[1] 2\n\n\nOr more complex things like:\n\nlibrary(ggplot2)\nggplot(\n  mtcars,\n  aes(x = mpg, y = hp)\n) +\n  geom_point() +\n  theme_classic()\n\n\n\n\n\n\n\n\nCome, let’s learn R together!"
+    "text": "2 RStudio Interface\nThe RStudio interface is divided into four panes:\nIntroduce yourself to them by reading about them here.\nAlso, you can move them around and customize per your preferences. For this, go to Tools-&gt; Global options -&gt; Pane layout"
   },
   {
     "objectID": "index.html#start-with-coding",
@@ -39,7 +39,7 @@
     "href": "index.html#end-in-mind",
     "title": "Rstats-forStudents",
     "section": "4 End in mind",
-    "text": "4 End in mind\nThere are many things you can do in RStudio. Broadly for a beginner, you can do the following:\n\nData analysis\nData visualization\nReport writing\n\nYou can pick any of the above and start learning or mix and match them as you learn, like I did."
+    "text": "4 End in mind\nThere are many things you can do in RStudio. Broadly for a beginner, you can do the following:\n\nData analysis\nData visualization\nReport writing\n\nYou can pick any of the above and start learning or mix and match them as you learn, like I did.\n\n\n\n\n\n\nWhat to aim if I am a total beginner\n\n\n\nI would suggest data visualization as it is rewarding. If you are here because your project required a particular analyses, then you might want to begin there. Report writing may require skills of 1 and 2 and maybe prioritized down the line."
   },
   {
     "objectID": "index.html#basic-best-practices",
@@ -53,13 +53,13 @@
     "href": "index.html#what-are-packages",
     "title": "Rstats-forStudents",
     "section": "6 What are packages?",
-    "text": "6 What are packages?\nPackages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.\nYou mmay have to install the package you want only once, but load them everytime you start a new session. I would think this as electricity and usinng fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights everytime you use them. Installing packages is llike installing the electricity connection and loading them is like switching on the fans/lights.\nYou can install and load a package using the following code: install.packages(\"package_name\") and library(package_name) respectively.\nI highly suggest you start with the tidyverse package. It is a collection of packages that are designed to work together. You can install and load the tidyverse package using the following code: install.packages(\"tidyverse\") and library(tidyverse) respectively. Learn more about the tidyverse package here."
+    "text": "6 What are packages?\nPackages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.\nYou may have to install the package you want only once, but load them every time you start a new session. I would think this as electricity and using fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights every time you use them. Installing packages is like installing the electricity connection and loading them is like switching on the fans/lights.\n\n\n\nLoad the packages like you switch on the fan every time you need\n\n\nYou can install and load a package using the following code: install.packages(\"package_name\") and library(package_name) respectively.\nI highly suggest you start with the tidyverse package. It is a collection of packages that are designed to work together. You can install and load the tidyverse package using the following code: install.packages(\"tidyverse\") and library(tidyverse) respectively. Learn more about the tidyverse package here."
   },
   {
-    "objectID": "index.html#challenges-aand-getting-help",
-    "href": "index.html#challenges-aand-getting-help",
+    "objectID": "index.html#challenges-and-getting-help",
+    "href": "index.html#challenges-and-getting-help",
     "title": "Rstats-forStudents",
-    "section": "7 Challenges aand getting help",
-    "text": "7 Challenges aand getting help\nYou may face challenges while learning R. But don’t worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker, learn to make a reproducible example. You can learn more about it here. This will help you recreate your error and share it with others to get help."
+    "section": "7 Challenges and getting help",
+    "text": "7 Challenges and getting help\nYou may face challenges while learning R. But don’t worry, you are not alone. There are many resources available to help you. You can ask your friends, colleagues, teachers, or even the internet. To be a better asker (is that even a word?), learn to make a reproducible example. You can learn more about it here. This will help you recreate your error and share it with others to get help."
   }
 ]
