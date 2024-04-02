@@ -1,7 +1,37 @@
 ---
 title: "Rstats-forStudents"
+subtitle: For my current and potential students interested in learning R
+author: 
+  name: Soundarya S
+  affiliation: ICMR-NIOH
+  email: soundarya24@gmail.com
+  degrees: MBBS, Ph.D.
+keywords: "beginners, R basics, RStudio, tidyverse, best practices, packages, challenges, getting help"
+format: 
+  html: 
+    toc: true
+    toc-title: My contents
+    code-fold: true
+    code-summary: Show the code for this
+theme: 
+  light: sandstone
+  dark: darkly
+title-block-banner: "orange"
+title-block-banner-color: "midnightblue"
+number-sections: true
+include-after-body: footer.Rhtml
 ---
 
+```{r}
+#| label: timestamp
+#| echo: false
+timestamp(prefix = "Last updated: ", suffix = ".")
+```
+
+
+
+
+***
 Have you read the about page? If not, head over to [About](about.html) to know more about this site.
 
 First things first, have you installed RStudio inn your system?
@@ -32,7 +62,6 @@ Introduce yourself to them by clicking [here](https://docs.posit.co/ide/user/ide
 
 Now that you have installed R and RStudio, you are ready to start coding. Type the following code in the console and press enter; and you will see the output.
 
-
 ```{r}
 1 + 1
 print("Hello World!")
@@ -44,11 +73,11 @@ Alright. You have successfully run your first code in RStudio. You can also run 
 
 There are many things you can do in RStudio. Broadly for a beginner, you can do the following:
 
-1. Data analysis
-2. Data visualization
-3. Report writing
+1.  Data analysis
+2.  Data visualization
+3.  Report writing
 
-You can pick any of the above and start learning or mix and match them as you learn, like I did. 
+You can pick any of the above and start learning or mix and match them as you learn, like I did.
 
 ## Basic best practices
 
@@ -56,11 +85,11 @@ In my R journey, I have learned a few things that I would like to share with you
 
 To shine and be a good programmer, you need to write clean and readable codes, learn to organize them meaningfully. You can do this by following the best practices. I have these following suggesstions for you to begin with.
 
-1. **Writing scripts**: Write your codes in a script file and run them in the console. This way you can keep track of your codes and run them whenever you want. Read about writing scripts in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-08-03-using-r-scripts-effectively-even-as-a-beginner/).
+1.  **Writing scripts**: Write your codes in a script file and run them in the console. This way you can keep track of your codes and run them whenever you want. Read about writing scripts in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-08-03-using-r-scripts-effectively-even-as-a-beginner/).
 
-2. **Projects**: Create a project in RStudio for each of your work. This way you can keep all the files related to a project in one place. Read about creating projects in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-08-03-starting-projects-in-rstudio/).
+2.  **Projects**: Create a project in RStudio for each of your work. This way you can keep all the files related to a project in one place. Read about creating projects in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-08-03-starting-projects-in-rstudio/).
 
-3. **Importing data**: Import your data into RStudio using the `readr` package. Read about importing data in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-05-13-how-to-import-your-data-into-r/).
+3.  **Importing data**: Import your data into RStudio using the `readr` package. Read about importing data in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-05-13-how-to-import-your-data-into-r/).
 
 Click [here](https://style.tidyverse.org/) to know more about the best practices in R.
 
