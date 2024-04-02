@@ -81,6 +81,14 @@ print("Hello World!")
 
 Alright. You have successfully run your first code in RStudio. You can also run the code by writing them first as a script.
 
+::: callout-important
+## Well, I am not a coder!
+
+This is a common feeling when we start with R, particularly if we are not used to programming. Even I was not a programmer when i started learning R.
+
+[![Read about curbing this feeling](rbeginner.jpeg){fig-align="center"}](https://x.com/SoundaryaRak/status/1656970220647620608?s=20)
+:::
+
 ## End in mind
 
 There are many things you can do in RStudio. Broadly for a beginner, you can do the following:
@@ -111,9 +119,11 @@ To shine and be a good programmer, you need to write clean and readable codes, l
 
 Click [here](https://style.tidyverse.org/) to know more about the best practices in R.
 
+[![My tweet for beginners on best practices](tweet-bestpractices.png){fig-align="center"}](https://x.com/SoundaryaRak/status/1663780092722688001?s=20)
+
 ## What are packages?
 
-Packages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes.
+Packages are the building blocks of R. They are the collection of functions, data and documentation in R. You can think of them as the apps in your mobile. You can install them from the CRAN repository and use them in your codes. How to install them is described later.
 
 You may have to install the package you want only once, but load them every time you start a new session. I would think this as electricity and using fans/lights at home. When you build a new home, you have to install the electricity connection only once, but you have to switch on the fans/lights every time you use them. Installing packages is like installing the electricity connection and loading them is like switching on the fans/lights.
 
