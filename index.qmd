@@ -117,6 +117,9 @@ To shine and be a good programmer, you need to write clean and readable codes, l
 
 3.  **Importing data**: Import your data into RStudio using the `readr` package. Read about importing data in RStudio [here](https://ss-myrspace.netlify.app/posts/2021-05-13-how-to-import-your-data-into-r/).
 
+4. Also important to know how the data should be structured to be imported into R. I recently came across [this article](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) which is more beginner focused.
+
+
 Click [here](https://style.tidyverse.org/) to know more about the best practices in R.
 
 [![My tweet for beginners on best practices](tweet-bestpractices.png){fig-align="center"}](https://x.com/SoundaryaRak/status/1663780092722688001?s=20)
